@@ -3,9 +3,9 @@
 Dead simple way to download a GraphQL schema and save it to a file
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/mynewcli.svg)](https://npmjs.org/package/mynewcli)
-[![Downloads/week](https://img.shields.io/npm/dw/mynewcli.svg)](https://npmjs.org/package/mynewcli)
-[![License](https://img.shields.io/npm/l/mynewcli.svg)](https://github.com/rlancer/mynewcli/blob/master/package.json)
+[![Version](https://img.shields.io/npm/v/gql-schema-dl.svg)](https://npmjs.org/package/gql-schema-dl)
+[![Downloads/week](https://img.shields.io/npm/dw/gql-schema-dl.svg)](https://npmjs.org/package/gql-schema-dl)
+[![License](https://img.shields.io/npm/l/gql-schema-dl.svg)](https://github.com/rlancer/mynewcli/blob/master/package.json)
 
 # Usage
 
