@@ -6,7 +6,7 @@
   "bin": {
     "gql-schema-download": "./bin/run"
   },
-  "bugs": "https://github.com/rlancer/mynewcli/issues",
+  "bugs": "https://github.com/rlancer/graphql-download-schema/issues",
   "dependencies": {
     "@oclif/command": "^1.5.4",
     "@oclif/config": "^1.8.8",
@@ -31,9 +31,12 @@
     "/bin",
     "/lib"
   ],
-  "homepage": "https://github.com/rlancer/mynewcli",
+  "homepage": "https://github.com/rlancer/graphql-download-schema",
   "keywords": [
-    "oclif"
+    "graphql",
+    "gql",
+    "download",
+    "schema"
   ],
   "license": "MIT",
   "main": "lib/index.js",
