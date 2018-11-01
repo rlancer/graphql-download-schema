@@ -1,7 +1,9 @@
 import { Command, flags } from "@oclif/command";
+import { downloadSchema } from "./downloadSchema";
 
 class Mynewcli extends Command {
-  static description = "describe the command here";
+  static description =
+    "Download a GraphQL schema by providing an endpoint and an optional out file.";
 
   static flags = {
     // add --version flag to show CLI version
@@ -16,14 +18,23 @@ class Mynewcli extends Command {
   };
 
   static args = [
-    { name: "endpoint", description: "Path to your GraphQL endpoint" }
+    {
+      name: "endpoint",
+      description:
+        "URI to your GraphQL endpoint, ex: https://api.example.com/graphql "
+    }
   ];
 
   async run() {
     const { args, flags } = this.parse(Mynewcli);
 
-    // const name = flags.name || "world";
-    this.log(`hello ${args} + ${flags} from ./src/index.ts`);
+    if (args.endpoint) {
+      await downloadSchema(args.endpoint, flags.out || "schema.graphql");
+      this.log(`Successfully download your GraphQL schema!`);
+    } else {
+      this.warn("Invalid ENDPOINT");
+      this._help();
+    }
   }
 }
 
