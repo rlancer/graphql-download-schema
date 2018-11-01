@@ -9,11 +9,10 @@ Dead simple way to download a GraphQL schema and save it to a file
 
 # Usage
 
-> $ npm i gql-schema-dl
-
 ```bash
 USAGE
-  $ gql-schema-download [ENDPOINT]
+$ npm i -g gql-schema-dl
+$ gql-schema-dl [ENDPOINT]
 
 ARGUMENTS
   ENDPOINT  URI to your GraphQL endpoint, ex: https://api.example.com/graphql
