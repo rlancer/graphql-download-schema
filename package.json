@@ -1,10 +1,10 @@
 {
-  "name": "gql-schema-download",
+  "name": "gql-schema-dl",
   "description": "Downloads a remomte GraphQL schema to a file",
   "version": "0.0.0",
   "author": "Robert Lancer",
   "bin": {
-    "gql-schema-download": "./bin/run"
+    "gql-schema-dl": "./bin/run"
   },
   "bugs": "https://github.com/rlancer/graphql-download-schema/issues",
   "dependencies": {
@@ -41,7 +41,7 @@
   "license": "MIT",
   "main": "lib/index.js",
   "oclif": {
-    "bin": "gql-schema-download"
+    "bin": "gql-schema-dl"
   },
   "repository": "rlancer/mynewcli",
   "scripts": {
