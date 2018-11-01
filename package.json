@@ -1,7 +1,7 @@
 {
   "name": "gql-schema-dl",
   "description": "Downloads a remomte GraphQL schema to a file",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Robert Lancer",
   "bin": {
     "gql-schema-dl": "./bin/run"
