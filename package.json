@@ -1,28 +1,28 @@
 {
   "name": "gql-schema-dl",
   "description": "Downloads a remomte GraphQL schema to a file",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Robert Lancer",
   "bin": {
     "gql-schema-dl": "./bin/run"
   },
   "bugs": "https://github.com/rlancer/graphql-download-schema/issues",
   "dependencies": {
-    "@oclif/command": "^1.5.6",
-    "@oclif/config": "^1.9.0",
-    "@oclif/plugin-help": "^2.1.4",
+    "@oclif/command": "^1.5.4",
+    "@oclif/config": "^1.8.8",
+    "@oclif/plugin-help": "^2.1.3",
     "@types/graphql": "^14.0.3",
     "axios": "^0.18.0",
-    "graphql": "^14.0.0 || ^0.11.0 || ^0.12.0 || ^0.13.0",
-    "tslib": "^1.9.3"
+    "tslib": "^1.9.3",
+    "graphql": "^14.0.0 || ^0.11.0 || ^0.12.0 || ^0.13.0"
   },
   "devDependencies": {
-    "@types/chai": "^4.1.7",
+    "@types/chai": "^4.1.4",
     "@types/mocha": "^5.2.5",
-    "@types/node": "^10.12.10",
+    "@types/node": "^10.12.1",
     "graphql": "^14.0.2",
     "ts-node": "^7.0.1",
-    "typescript": "^3.1.6"
+    "typescript": "^3.1.3"
   },
   "peerDependencies": {},
   "engines": {
